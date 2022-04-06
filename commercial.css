@@ -1,0 +1,158 @@
+/* style applied to whole body*/
+body {
+  font-family: "Fredoka One", cursive;
+  font-size: 16px;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/581d96c8b3db2b4ee656fbb9/1484561524179-IMJG7JH0YOYEFWV1F0LX/Websitebackground5.jpg?format=2500w);
+  background-repeat: no-repeat;
+  background-color: #379fa9;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  margin: 0%;
+}
+/*second font family applied*/
+p {
+  font-family: "Crimson Pro", serif;
+}
+
+/*flex added in header */
+header {
+  display: flex;
+  padding: 5px;
+  width: 1200px;
+  margin: auto;
+}
+h1 {
+  margin: 30px;
+  padding: 20px;
+}
+nav .navigation {
+  width: 1200px;
+  margin: auto;
+}
+/*background color of nav*/
+nav {
+  background-color: #f3f3f4;
+}
+
+/*styles added to nav and its list*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+nav li a {
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #191645;
+}
+
+/*hover style in nav*/
+nav li a:hover {
+  background-color: #379fa9;
+  color: white;
+}
+
+main h2 {
+  width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+/*styles added to id mainfigure*/
+#mainfigure {
+  text-align: center;
+  padding: 25px;
+  width: 1200px;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+}
+article h2 {
+  text-align: center;
+}
+
+/*styles added to class wrapper*/
+article .wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin: auto;
+}
+
+/*styles added to class service*/
+article .service {
+  display: flex;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* styling footer*/
+footer {
+  background-color: rgba(5, 77, 90);
+  color: white;
+  padding: 70px;
+
+  /*styles added to class wrapper*/
+}
+footer .wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer h4 {
+  width: 1200px;
+  margin: auto;
+}
+
+section .more {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+/*styles added to  p*/
+div p {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+
+li a {
+  text-decoration: none;
+  color: burlywood;
+}
+li a :hover {
+  color: #f3f3f4;
+}
+
+button a {
+  text-decoration: none;
+  color: darkslategray;
+}
+button a :hover {
+  color: red;
+}
+
+/*styling the id contrast*/
+#contrast {
+  background-color: rgba(5, 77, 90, 0.8);
+  gap: 5px;
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+/* styling the button*/
+button {
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
