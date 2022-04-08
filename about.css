@@ -1,0 +1,131 @@
+/* style applied to whole body*/
+body {
+  background: #2980b9;
+  color: #fff;
+  font-family: "Fredoka One", cursive;
+  margin: 0;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/581d96c8b3db2b4ee656fbb9/1484561524179-IMJG7JH0YOYEFWV1F0LX/Websitebackground5.jpg?format=2500w);
+  background-repeat: no-repeat;
+  background-color: #379fa9;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  margin: 0;
+}
+
+/*second font family applied*/
+p {
+  font-family: "Crimson Pro", serif;
+}
+
+header,
+nav,
+article,
+footer {
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+header,
+article,
+footer {
+  text-align: center;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: rgba(5, 77, 90);
+}
+
+li a {
+  text-decoration: none;
+  color: burlywood;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  display: none;
+  justify-content: right;
+}
+
+.show-items {
+  display: flex;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+}
+
+nav .toggle {
+  align-self: flex-end;
+  position: absolute;
+  cursor: pointer;
+  color: black;
+}
+
+nav li a:hover {
+  background-color: #379fa9;
+  color: white;
+}
+
+article {
+  padding: 20px 0;
+  background-color: rgba(5, 77, 90, 0.8);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  nav .menu-label {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav ul li {
+    padding-right: 8px;
+  }
+
+  nav .toggle {
+    display: none;
+  }
+
+  main {
+    display: flex;
+  }
+
+  article {
+    flex: 2 1 0;
+    margin-right: 10px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  nav ul,
+  main {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+button :hover {
+  background-color: #379fa9;
+  flex-grow: 120%;
+  transition-duration: 200ms;
+}

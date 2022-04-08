@@ -1,0 +1,245 @@
+/* style applied to whole body*/
+body {
+  font-family: "Fredoka One", cursive;
+  font-size: 16px;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/581d96c8b3db2b4ee656fbb9/1484561524179-IMJG7JH0YOYEFWV1F0LX/Websitebackground5.jpg?format=2500w);
+  background-repeat: no-repeat;
+  background-color: #379fa9;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  margin: 0;
+}
+
+/*second font family applied*/
+p {
+  font-family: "Crimson Pro", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*flex added in header */
+header {
+  display: flex;
+  padding: 5px;
+
+  gap: 20px;
+}
+
+header img {
+  margin-top: 21px;
+}
+
+/*background color of nav*/
+nav {
+  background-color: #f3f3f4;
+}
+
+/*styles added to nav and its list*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+
+nav li a {
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #191645;
+}
+
+/*hover style in nav*/
+nav li a:hover {
+  background-color: #379fa9;
+  color: white;
+}
+
+/*padding added to main*/
+main h2 {
+  padding: 30px;
+}
+
+/*styles added to id mainfigure*/
+#mainfigure {
+  text-align: center;
+  padding: 25px;
+  width: 1200px;
+  margin: auto;
+}
+
+section.form {
+  display: block;
+}
+
+article {
+  display: flex;
+  text-align: center;
+  width: 1200px;
+  margin: auto;
+  gap: 30px;
+}
+
+footer {
+  background-color: rgba(5, 77, 90);
+  color: white;
+  padding: 70px;
+}
+
+/*styles added to class wrapper*/
+footer .wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* styling in web form*/
+.contact {
+  flex: 1 1 0;
+  background-color: rgba(5, 77, 90, 0.8);
+}
+
+input[type="reset"] {
+  color: black;
+  padding: 12px 20px;
+  border: 1px solid #379fa9;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #379fa9;
+}
+
+input[type="submit"] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: 1px solid #379fa9;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #379fa9;
+}
+
+/* ===============
+   STRUCTURE
+   =============== */
+
+.wrapper-form {
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ===============
+   FORM CONTROLS
+   =============== */
+
+input,
+select,
+textarea {
+  font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  font-family: sans-serif;
+}
+
+fieldset {
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  color: black;
+}
+
+.label-required {
+  font-size: 0.8rem;
+  color: red;
+}
+
+/*footer style*/
+footer h4 {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  margin: 30px;
+  padding: 20px;
+}
+
+nav .navigation {
+  width: 1200px;
+  margin: auto;
+}
+
+li a {
+  text-decoration: none;
+  color: burlywood;
+}
+
+li a :hover {
+  color: #f3f3f4;
+}
+
+button a {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+button a :hover {
+  color: red;
+}

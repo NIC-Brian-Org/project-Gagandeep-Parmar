@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- DGL 103 CVS1 - Gagandeep Parmar - Website Project-->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Island Best Floor Maintenance</title>
+  <link rel="icon" href="images/IBFMfavicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="contact.css" />
+  <!-- connected to stylesheet -->
+</head>
+
+<body>
+  <header>
+    <!-- header section of webpage -->
+    <a href="index.html"><img src="images/IBFM_LOGO.png" alt="Island Best Floor Maintenance" width="200" /></a>
+    <h1>Island Best Floor Maintenance</h1>
+  </header>
+
+  <nav>
+    <!-- navigation bar -->
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="house_cleaning.html"><b>House Cleaning</b></a>
+        </li>
+        <li>
+          <a href="commercial_cleaning.html"><b> Commercial</b></a>
+        </li>
+        <li>
+          <a href="about.html"><b> About</b></a>
+        </li>
+        <li>
+          <a href="contact.html"><b> Contact</b></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <!-- main body of page -->
+    <div>
+      <figure id="mainfigure">
+        <a href="images/Contact-Us.png"><img src="images/Contact-Us.png" alt="Contact us" width="1200"
+            height="600" /></a>
+      </figure>
+    </div>
+
+    <article>
+      <div>
+        <h2>Location</h2>
+        <p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.422694846327!2d-124.9851828843914!3d49.70284347937924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813ebe2fd5943%3A0xfe3489c6c9574da!2s215%20Centennial%20Dr%2C%20Courtenay%2C%20BC!5e0!3m2!1sen!2sca!4v1637692253813!5m2!1sen!2sca"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+        </p>
+        <!-- google map embeded in html -->
+      </div>
+      <!-- cintact details of client -->
+      <div class="contact">
+        <h2>Contact Information-:</h2>
+        <p>Address:</p>
+        <p>Unit 210, 215 Centennial dr</p>
+        <p>Courtenay, BC V9N6H5</p>
+        <br />
+        <p>Phone:</p>
+        <button style="border-radius: 20px">
+          <a href="tel: +1(778)269-0057"><b> (778)269-0057</b></a>
+        </button>
+        <br />
+        <p>Email:</p>
+        <p>
+          <button style="border-radius: 20px">
+            <em><a href="manish.sharma6727@gmail.com"><b> manish.sharma6727@gmail.com</b></a></em>
+          </button>
+        </p>
+      </div>
+    </article>
+    <br />
+    <article>
+      <!-- web form for users to fill data in -->
+      <div class="wrapper-form">
+        <h2>Service Form</h2>
+        <form method="post" action="https://learndigital.dev/programs/dgl103-form.php">
+          <label for="fname">
+            Full Name <span class="label-required">* (required)</span></label>
+          <input type="text" id="fname" name="fname" placeholder="Ex: Gagandeep Parmar " />
+          <!-- to input name -->
+
+          <label for="email">Email <span class="label-required">* (required)</span></label>
+          <input type="email" id="email" name="email" placeholder="Ex: gagan@gmail.com" required />
+          <!-- to input email -->
+
+          <label for="number">Contact Number
+            <span class="label-required">* (required)</span></label>
+          <input type="number" id="number" name="number" placeholder="Ex: 1234567890" required />
+          <br /><!-- to input contact number -->
+
+          <label for="service">Type of Service</label><!-- choose between provided two services -->
+          <select id="service" name="service">
+            <option value="House">House Cleaning</option>
+            <option value="Commercial">Commercial Cleaning</option>
+          </select>
+
+          <fieldset>
+            <!-- select the rating between good,ok,bad -->
+            <legend>Choose the Rating:</legend>
+            <input type="radio" id="Good" name="rating" value="Good" />
+            <label for="Good">Good</label><br />
+            <input type="radio" id="Ok" name="rating" value="Ok" />
+            <label for="Ok">Ok</label><br />
+            <input type="radio" id="Bad" name="rating" value="Bad" />
+            <label for="Bad">Bad</label>
+          </fieldset>
+
+          <label for="feedback">Customer's requirement</label><!-- user can write exact need -->
+          <textarea id="feedback" name="feedback" placeholder="Please tell us a about a service you want in detail"
+            style="height: 60px"></textarea>
+
+          <!-- for reCaptcha -->
+          <div>
+            <div style="text-align: center;">
+              ReCaptcha: Proof you are a human
+              <div class="recaptchaParent">
+                <span class="recaptchaSpan" id="firstNum"></span> +
+                <span class="recaptchaSpan" id="secondNum"></span> =
+                <input class="recaptcha" id="ans">
+
+              </div>
+              <button class="dateAndTime" onclick="submitAnswer()">Submit Your Answer</button>
+              <span id="status"></span>
+            </div>
+            <script src="recaptcha.js"></script>
+
+
+            <div class="wrapper-button">
+              <input type="reset" value="Reset" />
+              <input type="submit" value="Submit" />
+            </div>
+        </form>
+      </div>
+    </article>
+    <br />
+  </main>
+
+  <footer>
+    <!-- footer section of webpage -->
+    <div class="wrapper">
+      <div>
+        <a href="images/IBFM_LOGO.png"><img src="images/IBFM_LOGO.png" alt="Island Best Floor Maintenance "
+            width="175" />
+        </a>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li>
+            <a href="about.html"><b> About Us</b></a>
+          </li>
+          <li>
+            <a href="contact.html"><b> Contact Us</b></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li>
+            <a href="house_cleaning.html"><b> House Cleaning </b></a>
+          </li>
+          <li>
+            <a href="commercial_cleaning.html"><b> Commercial Cleaning</b></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li>
+            <b> Address:</b>
+            <address>215 Cenntenial Dr, Courtenay,V9N 6H5</address>
+          </li>
+          <li>
+            <b>Phone:</b>
+            <a href="tel: (778)269-0057"><b>(778)269-0057</b></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <h4>
+      <em><b>
+          Disclaimer- “This is a fictional website that was designed and coded
+          as an educational exercise. It is not intended to be seen outside of
+          the class environment. None of the content and images were approved
+          by the business owner.”</b></em>
+    </h4>
+    <!-- disclaimer provided by instructor -->
+  </footer>
+</body>
+
+</html>
