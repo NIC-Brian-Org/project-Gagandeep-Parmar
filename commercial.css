@@ -10,6 +10,7 @@ body {
   color: white;
   margin: 0%;
 }
+
 /*second font family applied*/
 p {
   font-family: "Crimson Pro", serif;
@@ -22,14 +23,17 @@ header {
   width: 1200px;
   margin: auto;
 }
+
 h1 {
   margin: 30px;
   padding: 20px;
 }
+
 nav .navigation {
   width: 1200px;
   margin: auto;
 }
+
 /*background color of nav*/
 nav {
   background-color: #f3f3f4;
@@ -43,6 +47,7 @@ nav ul {
   display: flex;
   justify-content: end;
 }
+
 nav li a {
   padding: 15px;
   display: inline-block;
@@ -73,6 +78,7 @@ main h2 {
 h3 {
   text-align: center;
 }
+
 article h2 {
   text-align: center;
 }
@@ -101,6 +107,7 @@ footer {
 
   /*styles added to class wrapper*/
 }
+
 footer .wrapper {
   display: flex;
   justify-content: space-around;
@@ -129,6 +136,7 @@ li a {
   text-decoration: none;
   color: burlywood;
 }
+
 li a :hover {
   color: #f3f3f4;
 }
@@ -137,6 +145,7 @@ button a {
   text-decoration: none;
   color: darkslategray;
 }
+
 button a :hover {
   color: red;
 }

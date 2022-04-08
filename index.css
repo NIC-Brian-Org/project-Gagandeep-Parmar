@@ -23,6 +23,7 @@ header {
   width: 1200px;
   margin: auto;
 }
+
 h1 {
   margin: 30px;
   padding: 20px;
@@ -41,6 +42,7 @@ nav ul {
   display: flex;
   justify-content: end;
 }
+
 nav li a {
   padding: 15px;
   display: inline-block;
@@ -69,31 +71,36 @@ main h2 {
   border-radius: 40px;
   color: white;
 }
-.recaptcha{
+
+.recaptcha {
   width: 30px;
   height: 30px;
   text-align: center;
 }
-.recaptchaSpan{
+
+.recaptchaSpan {
   width: 30px;
   height: 30px;
   text-align: center;
 }
+
 .dateAndTime {
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    margin: auto;
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 40px;
-    color: black;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 40px;
+  color: black;
 }
+
 .recaptchaParent {
   justify-content: center;
   display: inline;
   margin-top: 10px;
 }
+
 /*styles added to id mainfigure*/
 #mainfigure {
   text-align: center;
@@ -161,6 +168,7 @@ article.arrange {
   width: 200px;
   margin: auto;
 }
+
 /* styling the button*/
 article.arrange button {
   width: 400px;
@@ -275,4 +283,3 @@ button a :hover {
   background-color: rgba(5, 77, 90, 0.8);
   gap: 5px;
 }
-

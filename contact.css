@@ -19,6 +19,7 @@ p {
 * {
   box-sizing: border-box;
 }
+
 /*flex added in header */
 header {
   display: flex;
@@ -44,6 +45,7 @@ nav ul {
   display: flex;
   justify-content: end;
 }
+
 nav li a {
   padding: 15px;
   display: inline-block;
@@ -61,6 +63,7 @@ nav li a:hover {
 main h2 {
   padding: 30px;
 }
+
 /*styles added to id mainfigure*/
 #mainfigure {
   text-align: center;
@@ -227,6 +230,7 @@ li a {
   text-decoration: none;
   color: burlywood;
 }
+
 li a :hover {
   color: #f3f3f4;
 }
@@ -235,6 +239,7 @@ button a {
   text-decoration: none;
   color: darkslategray;
 }
+
 button a :hover {
   color: red;
 }

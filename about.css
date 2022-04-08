@@ -12,6 +12,7 @@ body {
   color: white;
   margin: 0;
 }
+
 /*second font family applied*/
 p {
   font-family: "Crimson Pro", serif;
@@ -74,10 +75,12 @@ nav .toggle {
   cursor: pointer;
   color: black;
 }
+
 nav li a:hover {
   background-color: #379fa9;
   color: white;
 }
+
 article {
   padding: 20px 0;
   background-color: rgba(5, 77, 90, 0.8);
@@ -121,11 +124,8 @@ article {
   }
 }
 
-
-button :hover{
+button :hover {
   background-color: #379fa9;
   flex-grow: 120%;
   transition-duration: 200ms;
-
 }
-
